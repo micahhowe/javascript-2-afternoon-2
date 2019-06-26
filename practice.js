@@ -16,7 +16,9 @@ var arr = [10,20,30];
   Create a function named 'first' that is given 'arr' as an argument.
   Return the first item in the given array.
 */
-
+function first(arr){
+  return arr[0]
+}
 //Code Here
 
 
@@ -31,7 +33,9 @@ var arr = [40,50,60];
   Create a function named 'last' that is given 'arr' as an argument. 
   Return the last item in the given array.
 */
-
+function last(arr){
+  return arr[arr.length - 1]
+}
 //Code Here
 
 
