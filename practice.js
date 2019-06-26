@@ -50,7 +50,12 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Create a function named 'looper' that is given family as it's only argument. 
   Loop through the given array and alert every item in the array.
 */
-
+function looper(arr){
+  for(i = 0; i < arr.length; i++){
+    window.alert(arr[i])
+  }
+}
+looper(family)
 //Code Here
 
 
@@ -67,6 +72,12 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+function reversedLooper(arr){
+for(let i = arr.length - 1; i >= 0; i--){
+  window.alert(arr[i])
+  }
+}
+reversedLooper(letters)
 
 
 
@@ -82,8 +93,17 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 */
 
 //Code Here
+newestArray3 = []
+function evenFinder(arr) {
+  for(i = 0; i < arr.length; i++){
+    if(arr[i] % 2 === 0){
+      newestArray3.push(arr[i])
+    }
+  } 
+  return newestArray3
+}
 
-
+console.log(newestArray3)
 
 
 
